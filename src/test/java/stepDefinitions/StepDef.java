@@ -7,7 +7,6 @@ import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -20,7 +19,6 @@ public class StepDef {
     private static Response response;
     private static String jsonString;
     private static String bookId;
-
 
     @Given("listo usuarios")
     public void lista_de_usuarios() {
